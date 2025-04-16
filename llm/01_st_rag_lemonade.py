@@ -26,7 +26,15 @@ VECTOR_DB_DIR = "vector_dbs"
 st.header("LLM RAG with Lemonade")
 
 # Load available models from Lemonade
-LEMONADE_MODEL_ID = "Llama-3.2-1B-Instruct-Hybrid"
+available_models = [
+    "Llama-3.2-1B-Instruct-Hybrid",
+    "Llama-3.2-3B-Instruct-Hybrid",
+    "Qwen-1.5-7B-chat-Hybrid",
+    "DeepSeek-R1-Distill-Qwen-7B-Hybrid",
+    "DeepSeek-R1-Distill-Llama-8B-Hybrid",
+]
+
+LEMONADE_MODEL_ID = st.selectbox("Select a model:", available_models, index=0)
 
 # Input text to load the document
 url_path = st.text_input("Enter the URL to load for RAG:",
