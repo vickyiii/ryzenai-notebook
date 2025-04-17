@@ -1,20 +1,23 @@
-# ryzenai-notebook
+# Ryzen AI Notebook
 
-Welcome to the Gen AI Playground, a collection of notebooks designed to showcase generative AI workloads on AMD Ryzen AI PCs. These notebooks are designed to be accessible to a broad audience, including AI creators, artists, engineers, and those who are just curious about generative AI.
+Welcome to the Gen AI Playground, a collection of notebooks designed to showcase generative AI workloads on AMD Ryzen AI PCs. 
 
 ## Table of Notebook Contents
 
 ### LLM
 
 * RAG
-
   - [Implementing RAG using Lanchain on AI PC](https://github.com/vickyiii/ryzenai-notebook/blob/main/llm/rag/st_rag_lemonade.py)
 * Chat
-
   - [CLI Chatbox Using Lemonade API on AI PC](https://github.com/vickyiii/ryzenai-notebook/blob/main/llm/chat/chat_hybrid.py)
 * Search
-
   - [Search App Using Lemonade API on AI PC](https://github.com/vickyiii/ryzenai-notebook/blob/main/llm/search/search_hybrid.py)
+
+- Lemonade Server - Plugin Examples
+  - [AI Toolkit for VS Code](https://github.com/vickyiii/ryzenai-notebook/blob/main/llm/server/ai-toolkit.md)
+  - [Continue Coding Assistant](https://github.com/vickyiii/ryzenai-notebook/blob/main/llm/server/continue.md)
+  - [Code GPT](https://github.com/vickyiii/ryzenai-notebook/blob/main/llm/server/codeGPT.md)
+  - [WebUI](https://ryzenai.docs.amd.com/en/latest/llm/server_interface.html#open-webui-demo)
 
 ### Hardware
 
@@ -52,3 +55,7 @@ The comprehensive set of pre-optimized models for hybrid execution used in these
 3. Deployment details with Local LLM
 4. Performance Analysis
 
+## Reference
+
+1. [Examples, Demos, Tutorials — Ryzen AI Software 1.4 documentation](https://ryzenai.docs.amd.com/en/latest/examples.html)
+2. [TurnkeyML Tool Examples](https://github.com/onnx/turnkeyml/tree/main/examples)
